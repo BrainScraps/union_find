@@ -10,8 +10,9 @@ public class Main {
     public static void main(String[] args) throws IOException {
 //        FileInputStream fileInputStream = new FileInputStream("./src/main/test_data/tinyUF.txt");
         FileInputStream fstream = null;
-        fstream = new FileInputStream(args[0].toString());
+        fstream = new FileInputStream(args[0]);
         BufferedReader br = new BufferedReader(new InputStreamReader(fstream));
+
 //        int N = StdIn.readInt();
 
         String strLine;
